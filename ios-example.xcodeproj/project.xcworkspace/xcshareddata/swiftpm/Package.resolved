@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "access-package-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/p3ol/access-package-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3e9e7fbd7032d0d0d80f40ce073e9d93226e31c9"
+      }
+    }
+  ],
+  "version" : 2
+}

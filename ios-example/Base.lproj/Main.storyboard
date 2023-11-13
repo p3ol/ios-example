@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K33-Cr-xap">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Article-->
+        <scene sceneID="LeT-0w-BfR">
+            <objects>
+                <viewController id="FgK-rU-q8m" customClass="ViewController" customModule="ios_example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WEE-6E-0Iy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Bp-Ci-p00">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOp-Su-5HV" userLabel="content">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="2941.6666666666665"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trC-j5-9k9" userLabel="lorem">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="2941.6666666666665"/>
+                                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Potenti nullam ac tortor vitae. Tellus cras adipiscing enim eu turpis egestas. Tristique senectus et netus et malesuada fames ac turpis. Venenatis urna cursus eget nunc scelerisque viverra. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Id interdum velit laoreet id donec ultrices tincidunt arcu non. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Mauris a diam maecenas sed enim ut sem. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Tristique senectus et netus et malesuada fames ac turpis. Et molestie ac feugiat sed lectus vestibulum.
+
+Vitae suscipit tellus mauris a diam maecenas. Sed libero enim sed faucibus turpis in eu. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Velit euismod in pellentesque massa placerat duis ultricies. Porta nibh venenatis cras sed felis. Sem et tortor consequat id porta nibh venenatis. Iaculis urna id volutpat lacus. Urna cursus eget nunc scelerisque. In tellus integer feugiat scelerisque varius morbi. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Ultricies mi quis hendrerit dolor. Senectus et netus et malesuada fames. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Sed viverra tellus in hac habitasse platea dictumst. Placerat vestibulum lectus mauris ultrices eros in cursus.
+
+Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. A arcu cursus vitae congue mauris rhoncus aenean. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Quam adipiscing vitae proin sagittis nisl rhoncus mattis. Id consectetur purus ut faucibus pulvinar elementum integer. Risus at ultrices mi tempus imperdiet. A diam maecenas sed enim. Risus nec feugiat in fermentum posuere urna. Mi proin sed libero enim sed faucibus turpis. Ipsum dolor sit amet consectetur adipiscing elit ut.
+
+Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Purus semper eget duis at. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Massa massa ultricies mi quis. Imperdiet sed euismod nisi porta lorem mollis. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Metus aliquam eleifend mi in nulla posuere. Vel fringilla est ullamcorper eget. Tempus urna et pharetra pharetra massa massa. Egestas maecenas pharetra convallis posuere morbi leo. Felis eget velit aliquet sagittis id consectetur purus ut. Metus dictum at tempor commodo ullamcorper a lacus. In dictum non consectetur a erat nam at. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Auctor augue mauris augue neque gravida in fermentum.
+
+Duis at tellus at urna condimentum mattis pellentesque id. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Turpis egestas pretium aenean pharetra magna ac placerat. In fermentum posuere urna nec tincidunt praesent semper. Ultrices vitae auctor eu augue ut lectus. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Dui faucibus in ornare quam viverra orci. Dictum sit amet justo donec enim diam. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Venenatis urna cursus eget nunc scelerisque viverra. Elementum pulvinar etiam non quam lacus suspendisse. Tortor condimentum lacinia quis vel. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Ac odio tempor orci dapibus ultrices. Dui sapien eget mi proin sed libero enim. Elit ullamcorper dignissim cras tincidunt lobortis.
+
+Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Rhoncus est pellentesque elit ullamcorper dignissim cras. At auctor urna nunc id cursus. Arcu ac tortor dignissim convallis aenean. Ipsum consequat nisl vel pretium lectus quam id leo in. Lacus viverra vitae congue eu consequat ac felis. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Nulla porttitor massa id neque aliquam. Vehicula ipsum a arcu cursus vitae. Viverra justo nec ultrices dui sapien eget mi. Curabitur vitae nunc sed velit dignissim. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. In fermentum et sollicitudin ac orci phasellus. Imperdiet dui accumsan sit amet nulla facilisi.
+
+Pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna. Neque convallis a cras semper auctor neque vitae. At erat pellentesque adipiscing commodo elit at imperdiet. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Risus in hendrerit gravida rutrum quisque. Iaculis nunc sed augue lacus viverra vitae congue. Feugiat nibh sed pulvinar proin. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Quam pellentesque nec nam aliquam sem et tortor consequat. Ornare aenean euismod elementum nisi quis eleifend. Ac placerat vestibulum lectus mauris. Platea dictumst quisque sagittis purus sit. Sapien eget mi proin sed libero enim sed. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Neque volutpat ac tincidunt vitae semper quis lectus. Sagittis nisl rhoncus mattis rhoncus urna. Imperdiet nulla malesuada pellentesque elit.
+
+Non nisi est sit amet. Vel facilisis volutpat est velit egestas dui id ornare arcu. Eu volutpat odio facilisis mauris. Accumsan tortor posuere ac ut. Nibh praesent tristique magna sit amet purus. Lectus urna duis convallis convallis tellus id interdum. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Adipiscing at in tellus integer feugiat. Viverra orci sagittis eu volutpat odio. Lacinia at quis risus sed vulputate odio ut. Tincidunt arcu non sodales neque sodales ut. Ut etiam sit amet nisl. Vehicula ipsum a arcu cursus vitae. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. In hac habitasse platea dictumst quisque sagittis purus sit amet.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="trC-j5-9k9" firstAttribute="top" secondItem="gOp-Su-5HV" secondAttribute="top" id="8PP-0e-ggd"/>
+                                            <constraint firstItem="trC-j5-9k9" firstAttribute="leading" secondItem="gOp-Su-5HV" secondAttribute="leading" id="dFK-a3-6Ke"/>
+                                            <constraint firstAttribute="trailing" secondItem="trC-j5-9k9" secondAttribute="trailing" id="l7J-MT-dUv"/>
+                                            <constraint firstAttribute="bottom" secondItem="trC-j5-9k9" secondAttribute="bottom" id="sps-kg-JZO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gOp-Su-5HV" firstAttribute="bottom" secondItem="mcR-6f-OBr" secondAttribute="bottom" id="D2W-ta-6jm"/>
+                                    <constraint firstItem="gOp-Su-5HV" firstAttribute="top" secondItem="mcR-6f-OBr" secondAttribute="top" id="Eh9-Km-W5s"/>
+                                    <constraint firstItem="gOp-Su-5HV" firstAttribute="width" secondItem="uZx-4n-2gh" secondAttribute="width" id="Hf2-Jm-MEZ"/>
+                                    <constraint firstItem="gOp-Su-5HV" firstAttribute="trailing" secondItem="mcR-6f-OBr" secondAttribute="trailing" id="TuY-Yx-XsL"/>
+                                    <constraint firstItem="gOp-Su-5HV" firstAttribute="leading" secondItem="mcR-6f-OBr" secondAttribute="leading" id="urw-fk-H0J"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="mcR-6f-OBr"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="uZx-4n-2gh"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9Ye-WZ-jMi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9Ye-WZ-jMi" firstAttribute="bottom" secondItem="3Bp-Ci-p00" secondAttribute="bottom" id="0qg-1P-13B"/>
+                            <constraint firstItem="3Bp-Ci-p00" firstAttribute="leading" secondItem="9Ye-WZ-jMi" secondAttribute="leading" id="B1x-kb-gHt"/>
+                            <constraint firstItem="9Ye-WZ-jMi" firstAttribute="trailing" secondItem="3Bp-Ci-p00" secondAttribute="trailing" id="Gq0-0D-Lp0"/>
+                            <constraint firstItem="3Bp-Ci-p00" firstAttribute="top" secondItem="9Ye-WZ-jMi" secondAttribute="top" id="eTp-lm-udq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Article" image="star" catalog="system" id="EcI-Td-Xn9"/>
+                    <connections>
+                        <outlet property="contentView" destination="gOp-Su-5HV" id="8la-j2-dls"/>
+                        <outlet property="loremLabel" destination="trC-j5-9k9" id="Bnx-yb-G4I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAW-U4-HAy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="-266"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fXR-xK-pkP">
+            <objects>
+                <tabBarController id="K33-Cr-xap" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9ty-t6-cL0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FgK-rU-q8m" kind="relationship" relationship="viewControllers" id="0xV-ej-HUn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZ7-N6-Ief" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279" y="-266"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="star" catalog="system" width="128" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
