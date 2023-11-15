@@ -21,15 +21,20 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Access.clearCookies()
         
         if #available(iOS 14, *) {
             ATTrackingManager.requestTrackingAuthorization { [weak self] _ in
-                self?.instanciateAccess()
-                self?.setupAccessEvents()
-                self?.createPaywall()
+                self?.setup()
             }
+        } else {
+            setup()
         }
+    }
+    
+    private func setup() {
+        instanciateAccess()
+        setupAccessEvents()
+        createPaywall()
     }
     
     private func instanciateAccess() {

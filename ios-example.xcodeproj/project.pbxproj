@@ -13,7 +13,7 @@
 		9021E3142B027631002BFA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3122B027631002BFA3F /* Main.storyboard */; };
 		9021E3162B027633002BFA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3152B027633002BFA3F /* Assets.xcassets */; };
 		9021E3192B027633002BFA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3172B027633002BFA3F /* LaunchScreen.storyboard */; };
-		9021E3222B027DD0002BFA3F /* AccessIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 9021E3212B027DD0002BFA3F /* AccessIOS */; };
+		90AA47822B051D3A00071E88 /* AccessIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 90AA47812B051D3A00071E88 /* AccessIOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9021E3222B027DD0002BFA3F /* AccessIOS in Frameworks */,
+				90AA47822B051D3A00071E88 /* AccessIOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +44,7 @@
 			children = (
 				9021E30B2B027631002BFA3F /* ios-example */,
 				9021E30A2B027631002BFA3F /* Products */,
+				90AA47772B05186500071E88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +70,13 @@
 			path = "ios-example";
 			sourceTree = "<group>";
 		};
+		90AA47772B05186500071E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,7 +94,7 @@
 			);
 			name = "ios-example";
 			packageProductDependencies = (
-				9021E3212B027DD0002BFA3F /* AccessIOS */,
+				90AA47812B051D3A00071E88 /* AccessIOS */,
 			);
 			productName = "ios-example";
 			productReference = 9021E3092B027631002BFA3F /* ios-example.app */;
@@ -117,7 +125,7 @@
 			);
 			mainGroup = 9021E3002B027631002BFA3F;
 			packageReferences = (
-				9021E3202B027DD0002BFA3F /* XCRemoteSwiftPackageReference "access-package-ios" */,
+				90AA47802B051D3A00071E88 /* XCRemoteSwiftPackageReference "access-package-ios" */,
 			);
 			productRefGroup = 9021E30A2B027631002BFA3F /* Products */;
 			projectDirPath = "";
@@ -383,7 +391,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9021E3202B027DD0002BFA3F /* XCRemoteSwiftPackageReference "access-package-ios" */ = {
+		90AA47802B051D3A00071E88 /* XCRemoteSwiftPackageReference "access-package-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/p3ol/access-package-ios.git";
 			requirement = {
@@ -394,9 +402,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9021E3212B027DD0002BFA3F /* AccessIOS */ = {
+		90AA47812B051D3A00071E88 /* AccessIOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9021E3202B027DD0002BFA3F /* XCRemoteSwiftPackageReference "access-package-ios" */;
+			package = 90AA47802B051D3A00071E88 /* XCRemoteSwiftPackageReference "access-package-ios" */;
 			productName = AccessIOS;
 		};
 /* End XCSwiftPackageProductDependency section */
