@@ -14,9 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var loremLabel: UILabel!
     
+    var access: Access?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        Access.config(["debug": true])
+    
+        Access.setDebug(true)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -38,23 +41,23 @@ class ViewController: UIViewController {
     }
     
     private func instanciateAccess() {
-        try? Access.instanciate(key: "<your_app_id_here>")
+        access = Access(key: "<your_app_id_here>")
     }
     
     private func setupAccessEvents() {
-        Access.onLock {
+        access?.onLock {
             // content was locked
         }
-        Access.onReady { _ in
+        access?.onReady { _ in
             // paywall is ready
         }
-        Access.onRelease { _ in
+        access?.onRelease { _ in
             // paywall was released
         }
     }
     
     private func createPaywall() {
-        Access.createPaywall(pageType: "premium", view: contentView, percent: 90) {
+        access?.createPaywall(pageType: "premium", view: contentView, percent: 90) {
             // Paywall was completed
         }
     }

@@ -13,7 +13,7 @@
 		9021E3142B027631002BFA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3122B027631002BFA3F /* Main.storyboard */; };
 		9021E3162B027633002BFA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3152B027633002BFA3F /* Assets.xcassets */; };
 		9021E3192B027633002BFA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3172B027633002BFA3F /* LaunchScreen.storyboard */; };
-		90AA47822B051D3A00071E88 /* AccessIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 90AA47812B051D3A00071E88 /* AccessIOS */; };
+		90CD5F322BF50FA900B73618 /* AccessIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 90CD5F312BF50FA900B73618 /* AccessIOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90AA47822B051D3A00071E88 /* AccessIOS in Frameworks */,
+				90CD5F322BF50FA900B73618 /* AccessIOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = "ios-example";
 			packageProductDependencies = (
-				90AA47812B051D3A00071E88 /* AccessIOS */,
+				90CD5F312BF50FA900B73618 /* AccessIOS */,
 			);
 			productName = "ios-example";
 			productReference = 9021E3092B027631002BFA3F /* ios-example.app */;
@@ -125,7 +125,7 @@
 			);
 			mainGroup = 9021E3002B027631002BFA3F;
 			packageReferences = (
-				90AA47802B051D3A00071E88 /* XCRemoteSwiftPackageReference "access-package-ios" */,
+				90CD5F302BF50FA900B73618 /* XCRemoteSwiftPackageReference "access-package-ios" */,
 			);
 			productRefGroup = 9021E30A2B027631002BFA3F /* Products */;
 			projectDirPath = "";
@@ -308,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2XLG969NQF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-example/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Poool Access iOS Example";
@@ -341,7 +341,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2XLG969NQF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-example/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Poool Access iOS Example";
@@ -391,7 +391,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		90AA47802B051D3A00071E88 /* XCRemoteSwiftPackageReference "access-package-ios" */ = {
+		90CD5F302BF50FA900B73618 /* XCRemoteSwiftPackageReference "access-package-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/p3ol/access-package-ios.git";
 			requirement = {
@@ -402,9 +402,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		90AA47812B051D3A00071E88 /* AccessIOS */ = {
+		90CD5F312BF50FA900B73618 /* AccessIOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90AA47802B051D3A00071E88 /* XCRemoteSwiftPackageReference "access-package-ios" */;
+			package = 90CD5F302BF50FA900B73618 /* XCRemoteSwiftPackageReference "access-package-ios" */;
 			productName = AccessIOS;
 		};
 /* End XCSwiftPackageProductDependency section */
