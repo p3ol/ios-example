@@ -10,7 +10,7 @@ import AccessIOS
 import AppTrackingTransparency
 
 // Set your APP ID here
-var APP_ID: String = "<your_app_id_here>"
+let APP_ID: String = "<your_app_id_here>"
 
 
 class ViewController: UIViewController {
