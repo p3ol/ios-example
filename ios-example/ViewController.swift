@@ -75,7 +75,7 @@ class ViewController: UIViewController {
 
         access?.onError { event, _ in
             guard let event = event else { return }
-            print("Access SDK encoutered an unexpected error:")
+            print("Access SDK encountered an unexpected error:")
             print(event.error)
         }
     }
