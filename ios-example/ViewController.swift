@@ -9,6 +9,10 @@ import UIKit
 import AccessIOS
 import AppTrackingTransparency
 
+// Set your APP ID here
+let APP_ID: String = "<your_app_id_here>"
+
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var contentView: UIView!
@@ -35,31 +39,49 @@ class ViewController: UIViewController {
     }
     
     private func setup() {
-        instanciateAccess()
+        access = Access(key: APP_ID)
+        
+        setupAccessConfig()
         setupAccessEvents()
+        
         createPaywall()
     }
     
-    private func instanciateAccess() {
-        access = Access(key: "<your_app_id_here>")
+    private func setupAccessConfig() {
+//        access?.config([
+//           "app_name" : "My custom app name",
+//           "locale" : "en",
+//           "alternative_widget" : "gift",
+//           "login_button_enabled" : false,
+//           "login_url" : "https://google.com",
+//           "subscription_url": "https://youtube.com",
+//        ])
+//        access?.config(["context": ["custom-context"]])
     }
     
     private func setupAccessEvents() {
         access?.onLock {
-            // content was locked
+            print("content locked")
         }
         access?.onReady { _ in
-            // paywall is ready
+            print("paywall ready")
+        }
+        access?.onPaywallSeen { _ in
+            print("paywall seen")
         }
         access?.onRelease { _ in
-            // paywall was released
+            print("paywall released")
+        }
+
+        access?.onError { event, _ in
+            guard let event = event else { return }
+            print("Access SDK encountered an unexpected error:")
+            print(event.error)
         }
     }
     
     private func createPaywall() {
-        access?.createPaywall(pageType: "premium", view: contentView, percent: 90) {
-            // Paywall was completed
-        }
+        access?.createPaywall(pageType: "premium", view: contentView, percent: 90)
     }
 }
 
