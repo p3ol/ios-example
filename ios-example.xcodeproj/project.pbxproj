@@ -13,7 +13,7 @@
 		9021E3142B027631002BFA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3122B027631002BFA3F /* Main.storyboard */; };
 		9021E3162B027633002BFA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3152B027633002BFA3F /* Assets.xcassets */; };
 		9021E3192B027633002BFA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9021E3172B027633002BFA3F /* LaunchScreen.storyboard */; };
-		90CD5F322BF50FA900B73618 /* AccessIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 90CD5F312BF50FA900B73618 /* AccessIOS */; };
+		9030A0752EB15F2600B7DD6C /* AccessIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 9030A0742EB15F2600B7DD6C /* AccessIOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90CD5F322BF50FA900B73618 /* AccessIOS in Frameworks */,
+				9030A0752EB15F2600B7DD6C /* AccessIOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = "ios-example";
 			packageProductDependencies = (
-				90CD5F312BF50FA900B73618 /* AccessIOS */,
+				9030A0742EB15F2600B7DD6C /* AccessIOS */,
 			);
 			productName = "ios-example";
 			productReference = 9021E3092B027631002BFA3F /* ios-example.app */;
@@ -108,7 +108,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					9021E3082B027631002BFA3F = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -125,7 +125,7 @@
 			);
 			mainGroup = 9021E3002B027631002BFA3F;
 			packageReferences = (
-				90CD5F302BF50FA900B73618 /* XCRemoteSwiftPackageReference "access-package-ios" */,
+				9030A0732EB15F2600B7DD6C /* XCRemoteSwiftPackageReference "access-package-ios" */,
 			);
 			productRefGroup = 9021E30A2B027631002BFA3F /* Products */;
 			projectDirPath = "";
@@ -217,6 +217,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5J8K653P79;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -280,6 +281,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5J8K653P79;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -308,7 +310,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2XLG969NQF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-example/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Poool Access iOS Example";
@@ -328,6 +329,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -341,7 +343,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2XLG969NQF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-example/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Poool Access iOS Example";
@@ -361,6 +362,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -391,9 +393,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		90CD5F302BF50FA900B73618 /* XCRemoteSwiftPackageReference "access-package-ios" */ = {
+		9030A0732EB15F2600B7DD6C /* XCRemoteSwiftPackageReference "access-package-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/p3ol/access-package-ios.git";
+			repositoryURL = "https://github.com/p3ol/access-package-ios";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -402,9 +404,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		90CD5F312BF50FA900B73618 /* AccessIOS */ = {
+		9030A0742EB15F2600B7DD6C /* AccessIOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90CD5F302BF50FA900B73618 /* XCRemoteSwiftPackageReference "access-package-ios" */;
+			package = 9030A0732EB15F2600B7DD6C /* XCRemoteSwiftPackageReference "access-package-ios" */;
 			productName = AccessIOS;
 		};
 /* End XCSwiftPackageProductDependency section */
