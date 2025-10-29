@@ -30,8 +30,10 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         if #available(iOS 14, *) {
-            ATTrackingManager.requestTrackingAuthorization { [weak self] _ in
-                self?.setup()
+            ATTrackingManager.requestTrackingAuthorization { _ in
+                DispatchQueue.main.async { [weak self] in
+                    self?.setup()
+                }
             }
         } else {
             setup()
